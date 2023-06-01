@@ -205,9 +205,12 @@ ul, ol {
 .intermedia-list {
     display: flex;
     gap: 24px;
+}
+
+.intermedia-item {
+    width: calc((100% - 72px) / 4);
     margin: 0;
     padding: 0;
-    width: calc((100% - 72px) / 4);
 }
 
 .intermedia-name {
@@ -277,13 +280,13 @@ ul, ol {
 
 .team-item {
     background-color: var(--hero-color);
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 } 
 
 .team-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team {
