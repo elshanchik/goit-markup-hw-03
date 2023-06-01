@@ -185,6 +185,8 @@ ul, ol {
 
 /* INTERMEDIA */
 
+.visually-hedden
+
 .hidden-section {
 
 }
@@ -255,7 +257,6 @@ ul, ol {
 
 .team-img {
     display: block;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-text-container {
@@ -470,7 +471,7 @@ ul, ol {
 /* ROW */
 
 .row-link {
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .row-img {
