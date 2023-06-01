@@ -185,8 +185,17 @@ ul, ol {
 
 /* INTERMEDIA */
 
-.intermedia-link {
-    width: calc((100%-72px)/4);
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-intermedia {
@@ -207,6 +216,7 @@ ul, ol {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     color: var(--title-color);
+    width: calc((100%-72px)/4); 
 }
 
 .intermedia-text {
@@ -217,6 +227,10 @@ ul, ol {
 }
 
 /* HOVER */
+
+.hover-img {
+    display: block;
+}
 
 .section-hover {
     padding-bottom: 120px;
@@ -248,8 +262,7 @@ ul, ol {
 /* TEAM */
 
 .team-link {
-    width: calc((100% - 72px)/4);
-    border-radius: 0px 0px 4px 4px;
+
 }
 
 .section-team {
@@ -259,6 +272,8 @@ ul, ol {
 
 .team-img {
     display: block;
+    width: calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-text-container {
@@ -433,6 +448,19 @@ ul, ol {
 }
 
 /* FILTERS */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .filters {
     padding-top: 96px;
