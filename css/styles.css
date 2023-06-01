@@ -204,9 +204,10 @@ ul, ol {
 
 .intermedia-list {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
+    margin: 0;
+    padding: 0;
+    width: calc((100% - 72px) / 4);
 }
 
 .intermedia-name {
@@ -216,7 +217,6 @@ ul, ol {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     color: var(--title-color);
-    width: calc((100%-72px)/4); 
 }
 
 .intermedia-text {
@@ -261,9 +261,6 @@ ul, ol {
 
 /* TEAM */
 
-.team-link {
-
-}
 
 .section-team {
     background-color: var(--footer-text-color);
@@ -272,8 +269,6 @@ ul, ol {
 
 .team-img {
     display: block;
-    width: calc((100% - 72px)/4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-text-container {
@@ -286,9 +281,9 @@ ul, ol {
 
 .team-list {
     display: flex;
-    margin-top: 72px;
     gap: 24px;
-    padding-bottom: 120px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team {
