@@ -134,15 +134,6 @@ ul, ol {
     padding: 188px 0 188px;
 }
 
-.button-container {
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 292px;
-    padding-left: 472px;
-    height: 600px;
-    width: 1440px;
-}
-
 .main-section-button {
     background-color: var(--title-color);
 }
@@ -159,11 +150,12 @@ ul, ol {
     color: var(--hero-color);
     cursor: pointer;
     background-color: var(--logo-color);
-    margin-bottom: 48px;
     border-radius: 4px;
     min-width: 169px;
     display: block;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-button:hover, 
@@ -179,8 +171,9 @@ ul, ol {
     letter-spacing: 0.02em;
     color: var(--hero-color);
     max-width: 496px;
-    margin: 48px;
-    
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* INTERMEDIA */
@@ -297,7 +290,6 @@ ul, ol {
     text-transform: capitalize;
     color: var(--title-color); 
     text-align: center;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -309,7 +301,6 @@ ul, ol {
     letter-spacing: 0.02em;
     color: var(--title-color);
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -318,7 +309,6 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 32px;
     color: var(--iten-color)  
 }
 
@@ -340,7 +330,7 @@ ul, ol {
     text-transform: uppercase;
     color: var(--logo-color);
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 17.5px;
 }
 
 .footer-logo-studio {
@@ -356,7 +346,7 @@ ul, ol {
 
 .footer-text {
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
     max-width: 264px; 
@@ -372,6 +362,8 @@ ul, ol {
 
 .prt-header-container {
     display: flex;
+    align-items: center;
+    height: 72px;
 }
 
 .logo {
@@ -545,6 +537,7 @@ ul, ol {
 
 .portfolio-footer {
     background-color: var(--title-color);
+    padding: 100px 0;
 }
 
 .portfolio-logo {
@@ -562,11 +555,13 @@ ul, ol {
     color: var(--footer-text-color);
 }
 
-.portfolio-footer-tex {
+.portfolio-footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--footer-text-color)
+    color: var(--footer-text-color);
+    max-width: 264px;
+    margin-top: 17.5px;
 }
 
 
