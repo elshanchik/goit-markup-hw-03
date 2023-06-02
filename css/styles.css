@@ -330,7 +330,7 @@ ul, ol {
     text-transform: uppercase;
     color: var(--logo-color);
     display: inline-block;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -561,7 +561,7 @@ ul, ol {
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
     max-width: 264px;
-    margin-top: 17.5px;
+    margin-top: 16px;
 }
 
 
